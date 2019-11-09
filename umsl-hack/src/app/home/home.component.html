@@ -1,0 +1,263 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage"> UMSL|HACK-v3</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#sponsors">SPONSORS</a></li>
+        <li><a href="#previous">PREVIOUS HACK</a></li>
+        <li><a href="#FAQ">FAQ</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="float">
+  <div class="fl-fl float-fb">
+    <i class="fa fa-facebook"></i>
+    <a href="https://www.facebook.com/umslhack/" target="_blank"> Like us!</a>
+  </div>
+  <div class="fl-fl float-tw">
+    <i class="fa fa-twitter"></i>
+    <a href="https://twitter.com/umslhack" target="_blank">Follow us!</a>
+  </div>
+  <div class="fl-fl float-lk">
+    <i class="fa fa-linkedin"></i>
+    <a href="https://www.linkedin.com/company/umsl-hack/" target="_blank">Follow us!</a>
+  </div>
+</div>
+
+<div class="jumbotron text-center ">
+  <div class="tint"> </div>
+  <div class="content">
+    <img [src]="logo" class="logo main-logo" />
+    <input type="button" value="Participant Guide " class="regbtn" onclick="window.open('../../assets/files/usmlHackGuide2019Final.pdf')" />
+    <input class="sponserbtn" type="button" value="Mentor" onclick="window.open('https://form.jotform.com/umslhack/mentor');">
+    <!-- <app-timer></app-timer> -->
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9">
+      <h2>What is UMSL|HACK?</h2><br>
+      <h4>UMSL|HACK is an annual hackathon hosted by the Information Systems Department at the University of
+        Missouri-St. Louis.
+        UMSL|HACK main goal is to create a platform to challenge/encourage college students to apply their skills by
+        building an application in 36 hours!
+        We know how valuable hackathons are to college students, while it might be intimidating to have a running
+        application in the allotted time,
+        we work very hard to provide participants with all the mentoring and help they need to get their app running.
+        We hope by participating in UMSL|HACK students will gain valuable skills as they will be working in a team to
+        complete a specific task that requires diverse sets of skills.</h4>
+      <br>
+    </div>
+    <div class="col-sm-3">
+      <img class="logo" height="350px" [src]="umslHackMonoBlack">
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid bg-grey mt-5">
+  <div class="row">
+    <div class="col-sm-2">
+      <img class="logo" [src]="umslHackMonoColorLogo" height="350px">
+    </div>
+    <div class="col-sm-10">
+      <h2>UMSL|HACK: Show Me the Data!</h2><br>
+      <h4>UMSL Hack: Show Me the Data! will be held on<b> Friday February 15th from 5:00 PM to Sunday February 17th
+          6:00 PM</b> at the University of Missouri-St. Louis Express Script Hall.
+        The theme of this event is "Show Me the Data!", where students will work in <b>teams of 3-5 people</b> to
+        create projects focused on creatively by harnessing the power of <b>Data</b>.
+        Our goal is to see how effectively students work with existing or newly created data while creating an
+        interface to solve real problems much as they would encounter in day-to-day business.
+
+      </h4><br>
+
+    </div>
+  </div>
+</div>
+
+<!-- Container (sponsors Section) -->
+<div id="sponsors" class="container-fluid text-center">
+  <h2>SPONSORS</h2>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4" style="margin-top: -3rem; margin-bottom: 46px;">
+      <span><a href="https://www.mastercard.us/en-us.html"><img class="logo" [src]="masterCard" width="300px"></a></span>
+    </div>
+    <div class="col-sm-4">
+      <span><a href="http://1904labs.com/"><img class="logo" [src]="labs" width="350px"></a></span>
+    </div>
+    <div class="col-sm-4">
+      <span><a href="https://www.nortonstaffing.com/"><img class="logo" [src]="norton" width="350px"></a></span>
+    </div>
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span><a href=""><img [src]="centene" class="logo"  width="350px"></a></span>
+    </div>
+    <div class="col-sm-4">
+        <span><a href="https://www.slalom.com/"><img class="logo-slalom" [src]="slalom" width="350px"></a></span>
+      </div>
+    <div class="col-sm-4">
+        <span><a href=""><img [src]="expressLogo"  class="logo" width="415px"></a></span>
+      </div>
+  </div>
+
+  <div class="row slideanim">
+    <div class="col-sm-4" style="margin-top: 25px">
+      <span><a href="https://www.umsl.edu/"><img class="logo" [src]="umslIS" width="350px"></a></span>
+    </div>
+  </div>
+
+</div>
+
+<!-- Container (previous Section) -->
+<div id="previous" class="container-fluid text-center bg-grey">
+  <h2>previous hacks</h2><br>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img [src]="umslHack1" alt="Paris" width="400" height="300">
+        <span>
+          <p>Team Smart Lot gathers around Taylor during a brainstorm session.</p>
+        </span>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img [src]="umslHack2" alt="Paris" width="400" height="300">
+        <p>Chris and Ryan discussing ideas before they start coding! </p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img [src]=" umslHack3" alt="Paris" width="400" height="300">
+        <p>Virtual Adviser troubleshooting their app.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img [src]=" umslHack4" alt="Paris" width="400" height="300">
+        <p>Sam from Virtual Adviser getting ready to code!</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img [src]=" umslHack5" alt="Paris" width="400" height="300">
+        <p>Team WeRecruit taking a break.</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img [src]=" umslHack6" alt="Paris" width="400" height="300">
+        <p>Thanks to all of our judges for helping us select the winners!</p>
+      </div>
+    </div>
+  </div><br>
+
+  <h2>What participants had to say about UMSL|HACK</h2>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <h4>"It really pushed my skills beyond what I had envisioned possible in a 36 hour period. Gave me new
+          inspiration for projects and how to practice moving forward."</h4>
+      </div>
+      <div class="item">
+        <h4>"I made some good friends and gained some valuable experience. Really enjoyed the whole experience.
+          The food was great, the mentors were incredible, and the organizers were some really stand-up people.
+          I just really really enjoyed the whole experience."</h4>
+      </div>
+      <div class="item">
+        <h4>"Best experience in college life"</h4>
+      </div>
+      <div class="item">
+        <h4>"was dope"</h4>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Container (FAQ Section) -->
+<div id="FAQ" class="container-fluid">
+  <div class="text-center">
+    <h2>FAQ</h2>
+  </div>
+  <p-accordion [multiple]="true">
+    <div class="row slideanim">
+      <p-accordionTab header="Where and When is UMSL|HACK?">
+        <h4>UMSL|HACK will be held on Friday February 15th at 5:00 PM to Sunday February 17th 6:00 PM at University of
+          Missouri - St. Louis.</h4>
+      </p-accordionTab>
+      <p-accordionTab header="Am I eligible to participate?">
+        <h4>Current undergraduate and graduate students, or those who graduated within the last 6 months, can compete.
+        </h4>
+      </p-accordionTab>
+      <p-accordionTab header="Is coding experience required?">
+        <h4>Nope! The entire UMSL|HACK team knew very little when they each attended their very first hackathon.
+          It’s entirely irrelevant what your experience is going into a hackathon, it’s more about your interest in
+          technology and problem solving. </h4>
+      </p-accordionTab>
+      <p-accordionTab header="Will there be food?">
+        <h4>Absolutely! Your meals for the weekend will be free and there will be plenty of snacks and drinks to keep
+          you energized.
+          If you have specific dietary requirements, please let us know when you register.</h4>
+      </p-accordionTab>
+      <p-accordionTab header="How Should I Act?">
+        <h4>Check out the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"><b>MLH Code of Conduct</b></a>.</h4>
+      </p-accordionTab>
+    </div>
+  </p-accordion>
+</div>
+
+<!-- Container (Contact Section) -->
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT Us</h2>
+  <div class="row">
+    <div class="text-center">
+      <p>Contact us and we will get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>1 University Blvd. Express Scripts Hall <br>
+        St. Louis, MO 63121-4400 </p>
+      <p><span class="glyphicon glyphicon-envelope"></span> umslhack@gmail.com</p>
+
+    </div>
+
+
+  </div>
+</div>
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+
+</footer>
