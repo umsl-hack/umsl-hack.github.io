@@ -70,6 +70,10 @@
     top: 270px;
   }
 
+  .float-in {
+    top: 325px;
+  }
+
 
   .jumbotron {
       background: url("../../assets/img/umsl-campus.jpg") center;
