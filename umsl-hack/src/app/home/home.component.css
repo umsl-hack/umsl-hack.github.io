@@ -162,7 +162,7 @@
     margin-top: -25px
   }
 
-  @media screen and (max-width: 1279px) {
+  @media screen and (max-width: 1366px) {
     .thumbnail {
       margin-right: 30px;
       margin-left: 30px;
@@ -287,7 +287,7 @@
       -webkit-transform: translateY(0%);
     }
   }
-  @media screen and (max-width: 1420px) {
+  @media screen and (max-width: 1366px) {
     .jumbotron{
         padding-bottom: 0;
     }
@@ -299,16 +299,18 @@
         padding: 0px;
     }
   }
+  @media screen and (max-width: 990px) {
+    .logo {
+      width: 250px;
+  }
+  .main-logo{
+      width: 300px;
+  }
+  }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1366px) {
     #logo{
       display: none;
-    }
-    .logo {
-        width: 250px;
-    }
-    .main-logo{
-        width: 300px;
     }
     .row {
         margin-right: 0px;
