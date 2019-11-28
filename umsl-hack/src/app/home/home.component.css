@@ -308,7 +308,7 @@
   }
   }
 
-  @media screen and (max-width: 1366px) {
+  @media screen and (max-width: 1066px) {
     #logo{
       display: none;
     }
