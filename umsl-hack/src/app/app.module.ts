@@ -9,6 +9,9 @@ import { AppComponent } from './app.component';
 import { ConfirmationComponent } from './confirmation/confirmation.component';
 import { HomeComponent } from './home/home.component';
 import { TimerComponent } from './timer/timer.component';
+import { SocialMediaComponent } from './social-media/social-media.component';
+import { FaqComponent } from './faq/faq.component';
+import { PastHacksComponent } from './past-hacks/past-hacks.component';
 
 const appRoutes : Routes =[
   {path:'', component:HomeComponent},
@@ -20,7 +23,10 @@ const appRoutes : Routes =[
     AppComponent,
     ConfirmationComponent,
     HomeComponent,
-    TimerComponent
+    TimerComponent,
+    SocialMediaComponent,
+    FaqComponent,
+    PastHacksComponent
   ],
   imports: [
     BrowserModule,
