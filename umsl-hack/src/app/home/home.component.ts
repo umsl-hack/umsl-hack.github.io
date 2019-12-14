@@ -43,4 +43,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  openSponsorPackage() {
+    window.open('../asset/SponsorshipPackage.pdf', '_self');
+  }
 }
