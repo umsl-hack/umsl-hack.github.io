@@ -12,11 +12,17 @@ import { TimerComponent } from './timer/timer.component';
 import { SocialMediaComponent } from './social-media/social-media.component';
 import { FaqComponent } from './faq/faq.component';
 import { PastHacksComponent } from './past-hacks/past-hacks.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { AboutComponent } from './about/about.component';
+import { SponsorsComponent } from './sponsors/sponsors.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FooterComponent } from './footer/footer.component';
+import { MainLogoComponent } from './main-logo/main-logo.component';
 
-const appRoutes : Routes =[
-  {path:'', component:HomeComponent},
-  {path:'confirm', component:ConfirmationComponent}
-]
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'confirm', component: ConfirmationComponent }
+];
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ const appRoutes : Routes =[
     TimerComponent,
     SocialMediaComponent,
     FaqComponent,
-    PastHacksComponent
+    PastHacksComponent,
+    NavBarComponent,
+    AboutComponent,
+    SponsorsComponent,
+    ContactUsComponent,
+    FooterComponent,
+    MainLogoComponent
   ],
   imports: [
     BrowserModule,
