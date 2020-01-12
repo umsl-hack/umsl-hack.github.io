@@ -37,6 +37,8 @@ export class HomeComponent implements OnInit {
   norton = '../../assets/img/norton.png';
   expressLogo = '../../assets/img/expressScripts.png';
   centene = '../../assets/img/centeneLogo.png';
+  wavicle = '../../assets/img/Wavicle.png';
+  cigna = '../../assets/img/cigna.png';
 
   constructor() { }
 
