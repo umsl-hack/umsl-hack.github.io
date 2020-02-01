@@ -39,6 +39,7 @@ export class HomeComponent implements OnInit {
   centene = '../../assets/img/centeneLogo.png';
   wavicle = '../../assets/img/Wavicle.png';
   cigna = '../../assets/img/cigna.png';
+  ssm = '../../assets/img/SSM_Health.png';
 
   constructor() { }
 
