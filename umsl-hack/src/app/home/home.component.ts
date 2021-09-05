@@ -30,6 +30,12 @@ export class HomeComponent implements OnInit {
   v3umsl4 = '../../assets/img/v3umsl4.JPG';
   v3umsl5 = '../../assets/img/v3umsl5.JPG';
   v3umsl6 = '../../assets/img/v3umsl6.JPG';
+  v4umsl1 = '../../assets/img/DSC_0151.JPG';
+  v4umsl2 = '../../assets/img/DSC_0216.JPG';
+  v4umsl3 = '../../assets/img/DSC_0227.JPG';
+  v4umsl4 = '../../assets/img/DSC_0292.JPG';
+  v4umsl5 = '../../assets/img/DSC_0368.JPG';
+  v4umsl6 = '../../assets/img/DSC_0593.JPG';
   showMeTheData =  '../../assets/img/umslhackv3.png';
   labs = '../../assets/img/1904logo.png';
   slalom = '../../assets/img/slalom-logo.png';
