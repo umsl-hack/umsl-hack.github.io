@@ -6,7 +6,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
   styleUrls: ['./timer.component.css']
 })
 export class TimerComponent implements OnInit {
-  targetDate: any = 1582261200000;
+  targetDate: any = 1634335200000;
   days: any;
   hours: any;
   minutes: any;
