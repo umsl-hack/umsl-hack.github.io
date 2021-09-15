@@ -299,6 +299,11 @@
         padding: 0px;
     }
   }
+  @media (max-width: 1380px) {
+    .logo {
+      width: 400px;
+    }
+  }
   @media screen and (max-width: 990px) {
     .logo {
       width: 250px;
@@ -342,4 +347,8 @@
 }
 .textcenter{
     text-align: center
+}
+
+.what.title {
+  text-align: center;
 }
