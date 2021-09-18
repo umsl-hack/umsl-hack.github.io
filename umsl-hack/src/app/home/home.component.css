@@ -352,3 +352,10 @@
 .what.title {
   text-align: center;
 }
+
+
+  @media screen and (max-width: 720px) {
+    .sm-logo {
+      margin-top: 35px;
+  }
+}
