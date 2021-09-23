@@ -38,7 +38,7 @@ export class HomeComponent implements OnInit {
   v4umsl6 = '../../assets/img/DSC_0593.JPG';
   showMeTheData =  '../../assets/img/umslhackv3.png';
   labs = '../../assets/img/1904logo.png';
-  slalom = '../../assets/img/slalom-logo.png';
+  slalom = '../../assets/img/slalom.png';
   masterCard = '../../assets/img/Webp.net-resizeimage.png';
   norton = '../../assets/img/norton.png';
   expressLogo = '../../assets/img/expressScripts.png';
